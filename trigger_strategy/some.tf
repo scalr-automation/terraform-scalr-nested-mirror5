@@ -1,3 +1,3 @@
-resource "terraform_data" "some" {
-  triggers_replace = timestamp()
+resource "terraform_data" "data" {
+  random_pet = timestamp()
 }
