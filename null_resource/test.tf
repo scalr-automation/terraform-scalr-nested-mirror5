@@ -2,7 +2,7 @@ resource "null_resource" "resource1" {
   provisioner "local-exec" {
     command = "env"
     environment = {
-      ENV = "Hello World2!"
+      ENV = "Hello Worldx!"
     }
   }
   
